@@ -53,9 +53,11 @@ $server->on('request', RequestCallback::fromCallable(static function (ServerRequ
 If you are like me and want even more sugar, use the `request_callback(RequestHandlerInterface|callable)` function:
 
 ```php
-$server->on('request', request_callback(static function (ServerRequestInterface $request): ResponseInterface {
-    return new TextResponse(sprintf('Hello, %s!', $request->getQueryParams()['name'] ?? 'World'));
-}));
+$server->on('request', request_callback(
+    static fn(ServerRequestInterface $request): ResponseInterface =>
+        new TextResponse(sprintf('Hello, %s!', $request->getQueryParams()['name'] ?? 'World')))
+);
+
 ```
 
 You can pass either a `RequestHandlerInterface` or a `callable`, it will figure out.

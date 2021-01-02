@@ -23,8 +23,9 @@ $server = new Server('localhost', 9501);
 //    return new TextResponse(sprintf('Hello, %s!', $request->getQueryParams()['name'] ?? 'World'));
 //}));
 
-$server->on('request', request_callback(static function (ServerRequestInterface $request): ResponseInterface {
-    return new TextResponse(sprintf('Hello, %s!', $request->getQueryParams()['name'] ?? 'World'));
-}));
+$server->on('request', request_callback(
+    static fn(ServerRequestInterface $request): ResponseInterface =>
+        new TextResponse(sprintf('Hello, %s!', $request->getQueryParams()['name'] ?? 'World')))
+);
 
 $server->start();
