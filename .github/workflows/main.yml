@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         php-versions: [ '7.4', '8.0' ]
-        extensions: [ swoole-4.5.10 ]
+        extensions: swoole
 
     steps:
       - name: Checkout repository
