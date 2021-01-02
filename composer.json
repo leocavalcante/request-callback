@@ -8,8 +8,8 @@
         "analyze": "psalm",
         "test": "pest --group=unit --coverage",
         "ci": [
-            "@composer analyze",
-            "@composer test"
+            "psalm --shepherd",
+            "pest --group=unit"
         ]
     },
     "authors": [
