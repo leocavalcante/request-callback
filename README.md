@@ -1,5 +1,7 @@
 # Request Callback
 
+![CI](https://github.com/leocavalcante/request-callback/workflows/CI/badge.svg)
+
 ➰ Swoole request callback for PSR complaint handlers.
 
 ## Install
