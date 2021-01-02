@@ -11,7 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        php-versions: ['7.4', '8.0']
+        php-versions: [ '7.4', '8.0' ]
+        extensions: [ swoole-4.5.10 ]
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
