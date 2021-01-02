@@ -2,6 +2,7 @@
 
 ![CI](https://github.com/leocavalcante/request-callback/workflows/CI/badge.svg)
 [![codecov](https://codecov.io/gh/leocavalcante/request-callback/branch/main/graph/badge.svg?token=TE1YQYNKHJ)](https://codecov.io/gh/leocavalcante/request-callback)
+[![psalm](https://shepherd.dev/github/leocavalcante/request-callback/coverage.svg)](https://shepherd.dev/github/leocavalcante/request-callback)
 
 ➰ Swoole request callback for PSR complaint handlers.
 
