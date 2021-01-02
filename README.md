@@ -14,7 +14,7 @@ composer require leocavalcante/request-callback
 
 ## Usage
 
-Simply create a callback that decorates a `RequestHandlerInterface` and pass as a listener to the `onRequest` event of the `Swoole\Http\Server`.
+Simply create a callback that decorates a [`RequestHandlerInterface`](https://www.php-fig.org/psr/psr-15/#11-request-handlers) and pass as a listener to the [`onRequest`](https://www.swoole.co.uk/docs/modules/swoole-http-server-on-request) event of the [`Swoole\Http\Server`](https://www.swoole.co.uk/docs/modules/swoole-http-server-doc).
 
 ```php
 use Swoole\Http\RequestCallback;
