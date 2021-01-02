@@ -6,8 +6,6 @@ on:
   pull_request:
     branches: [ main ]
 
-  workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,13 +15,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        
+
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-versions }}
           coverage: pcov
-          
+
       - name: Get composer cache directory
         id: composer-cache
         run: echo "::set-output name=dir::$(composer config cache-files-dir)"
@@ -37,9 +35,9 @@ jobs:
 
       - name: Install dependencies
         run: composer install --prefer-dist
-        
+
       - name: Run CI
         run: composer ci
-        
+
       - name: Code coverage
         uses: codecov/codecov-action@v1.0.14
