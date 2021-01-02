@@ -17,7 +17,7 @@ final class SwooleRequest extends Request
         ];
     }
 
-    public function rawContent(): string
+    public function getContent(): string
     {
         return $this->content;
     }

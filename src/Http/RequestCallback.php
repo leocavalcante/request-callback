@@ -3,6 +3,7 @@
 namespace Swoole\Http;
 
 use Laminas\Diactoros\ServerRequest;
+use Laminas\Diactoros\ServerRequestFactory;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
@@ -55,7 +56,7 @@ final class RequestCallback
             $files,
             $server['request_uri'] ?? '/',
             $server['request_method'] ?? 'GET',
-            new Stream($swooleRequest),
+            $this->options->getStreamFactory()->createStream($swooleRequest->getContent()),
             $headers,
             $cookies,
             $query_params,
@@ -77,7 +78,9 @@ final class RequestCallback
 
         if ($body->isReadable()) {
             if ($body->getSize() <= $this->options->getResponseChunkSize()) {
-                $swooleResponse->write($body->getContents());
+                if ($data = $body->getContents()) {
+                    $swooleResponse->write($data);
+                }
             } else {
                 while (!$body->eof() && ($data = $body->read($this->options->getResponseChunkSize()))) {
                     $swooleResponse->write($data);

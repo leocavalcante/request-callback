@@ -3,6 +3,7 @@
 namespace Test\Unit;
 
 use Laminas\Diactoros\Response\TextResponse;
+use Laminas\Diactoros\StreamFactory;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Swoole\Http\RequestCallbackOptions;
@@ -25,7 +26,7 @@ it('emits regular requests', function(): void {
 it('emits non-readable requests', function(): void {
     $cb = request_callback(static function (ServerRequestInterface $request): ResponseInterface {
         return new TextResponse(new NonReadableStream('Foo'));
-    });
+    }, RequestCallbackOptions::create()->setStreamFactory(new StreamFactory()));
 
     $request = new SwooleRequest();
     $response = new SwooleResponse();
