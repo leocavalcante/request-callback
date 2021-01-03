@@ -3,10 +3,10 @@
 namespace Swoole\Http;
 
 use Laminas\Diactoros\ServerRequest;
-use Laminas\Diactoros\ServerRequestFactory;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
+use function Laminas\Diactoros\normalizeUploadedFiles;
 
 final class RequestCallback
 {
@@ -53,7 +53,7 @@ final class RequestCallback
 
         return new ServerRequest(
             $server,
-            $files,
+            normalizeUploadedFiles($files),
             $server['request_uri'] ?? '/',
             $server['request_method'] ?? 'GET',
             $this->options->getStreamFactory()->createStream((string) $swooleRequest->getData()),
