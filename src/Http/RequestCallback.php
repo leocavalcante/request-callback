@@ -56,7 +56,7 @@ final class RequestCallback
             $files,
             $server['request_uri'] ?? '/',
             $server['request_method'] ?? 'GET',
-            $this->options->getStreamFactory()->createStream($swooleRequest->getContent()),
+            $this->options->getStreamFactory()->createStream((string) $swooleRequest->getData()),
             $headers,
             $cookies,
             $query_params,

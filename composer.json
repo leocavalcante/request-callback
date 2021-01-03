@@ -7,6 +7,10 @@
     "scripts": {
         "analyze": "psalm",
         "test": "pest --group=unit --coverage",
+        "check": [
+            "@composer analyze",
+            "@composer test"
+        ],
         "ci": [
             "psalm --shepherd",
             "pest --group=unit"
