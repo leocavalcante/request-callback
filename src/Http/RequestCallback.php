@@ -20,7 +20,7 @@ final class RequestCallback
      */
     public static function fromCallable(callable $callable, ?RequestCallbackOptions $options = null): self
     {
-        return new self(new CallableRequestHandler($callable) ,$options);
+        return new self(new CallableRequestHandler($callable), $options);
     }
 
     public function __construct(RequestHandlerInterface $handler, ?RequestCallbackOptions $options = null)
@@ -78,12 +78,12 @@ final class RequestCallback
 
         if ($body->isReadable()) {
             if ($body->getSize() <= $this->options->getResponseChunkSize()) {
-                if ($data = $body->getContents()) {
-                    $swooleResponse->write($data);
+                if ($contents = $body->getContents()) {
+                    $swooleResponse->write($contents);
                 }
             } else {
-                while (!$body->eof() && ($data = $body->read($this->options->getResponseChunkSize()))) {
-                    $swooleResponse->write($data);
+                while (!$body->eof() && ($contents = $body->read($this->options->getResponseChunkSize()))) {
+                    $swooleResponse->write($contents);
                 }
             }
 
