@@ -1,6 +1,6 @@
 {
     "name": "leocavalcante/request-callback",
-    "description": "Swoole request callback for PSR complaint handlers",
+    "description": "Swoole request callback for PSR compliant handlers.",
     "type": "library",
     "keywords": ["swoole", "psr", "http", "server", "request", "callback", "handler"],
     "license": "MIT",
