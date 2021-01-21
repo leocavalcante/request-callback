@@ -56,7 +56,7 @@ final class RequestCallback
             normalizeUploadedFiles($files),
             $server['request_uri'] ?? '/',
             $server['request_method'] ?? 'GET',
-            $this->options->getStreamFactory()->createStream((string) $swooleRequest->getData()),
+            $this->options->getStreamFactory()->createStream((string) $swooleRequest->rawContent()),
             $headers,
             $cookies,
             $query_params,
