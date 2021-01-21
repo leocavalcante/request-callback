@@ -6,19 +6,19 @@ use Swoole\Http\Request;
 
 final class SwooleRequest extends Request
 {
-    private string $data;
+    private string $content;
 
-    public function __construct(string $data = '')
+    public function __construct(string $content = '')
     {
-        $this->data = $data;
+        $this->content = $content;
         $this->server = [
             'request_uri' => '/',
             'request_method' => 'GET',
         ];
     }
 
-    public function getData(): string
+    public function rawContent(): string
     {
-        return $this->data;
+        return $this->content;
     }
 }
