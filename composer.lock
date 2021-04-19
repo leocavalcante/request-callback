@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5adb9b076a73ee46745bc56053ccbb02",
+    "content-hash": "4ab7e8e2353be9a8440e9ffe989d00ed",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -3589,16 +3589,16 @@
         },
         {
             "name": "swoole/ide-helper",
-            "version": "4.6.4",
+            "version": "4.6.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swoole/ide-helper.git",
-                "reference": "7e5c51ce7cc8c03ffb836aad31f3f27cd871aa96"
+                "reference": "11bc5af94512ed3bfaa31a97302f78d4074dae22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/7e5c51ce7cc8c03ffb836aad31f3f27cd871aa96",
-                "reference": "7e5c51ce7cc8c03ffb836aad31f3f27cd871aa96",
+                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/11bc5af94512ed3bfaa31a97302f78d4074dae22",
+                "reference": "11bc5af94512ed3bfaa31a97302f78d4074dae22",
                 "shasum": ""
             },
             "require-dev": {
@@ -3619,7 +3619,7 @@
                 }
             ],
             "description": "IDE help files for Swoole.",
-            "time": "2021-03-11T19:44:34+00:00"
+            "time": "2021-04-09T15:40:39+00:00"
         },
         {
             "name": "symfony/console",
