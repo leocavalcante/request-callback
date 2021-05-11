@@ -1764,16 +1764,16 @@
         },
         {
             "name": "pestphp/pest-plugin-init",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest-plugin-init.git",
-                "reference": "bd6fdb058ba5dc7a9f7f3645ad4e0bdc34cf0026"
+                "reference": "cb3dfa1a9887aafb3d0b4db0fb8f6171ce69b49e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin-init/zipball/bd6fdb058ba5dc7a9f7f3645ad4e0bdc34cf0026",
-                "reference": "bd6fdb058ba5dc7a9f7f3645ad4e0bdc34cf0026",
+                "url": "https://api.github.com/repos/pestphp/pest-plugin-init/zipball/cb3dfa1a9887aafb3d0b4db0fb8f6171ce69b49e",
+                "reference": "cb3dfa1a9887aafb3d0b4db0fb8f6171ce69b49e",
                 "shasum": ""
             },
             "require": {
@@ -1832,7 +1832,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-01-03T15:47:48+00:00"
+            "time": "2021-05-10T16:31:00+00:00"
         },
         {
             "name": "phar-io/manifest",
