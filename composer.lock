@@ -1697,16 +1697,16 @@
         },
         {
             "name": "pestphp/pest-plugin-expectations",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest-plugin-expectations.git",
-                "reference": "56069191ca7dd6c53819f55ae1628ae5a3886459"
+                "reference": "f507cf95e72d763c5c05af83be929aa13dfd3ae2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin-expectations/zipball/56069191ca7dd6c53819f55ae1628ae5a3886459",
-                "reference": "56069191ca7dd6c53819f55ae1628ae5a3886459",
+                "url": "https://api.github.com/repos/pestphp/pest-plugin-expectations/zipball/f507cf95e72d763c5c05af83be929aa13dfd3ae2",
+                "reference": "f507cf95e72d763c5c05af83be929aa13dfd3ae2",
                 "shasum": ""
             },
             "require": {
@@ -1762,7 +1762,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-05-18T23:06:36+00:00"
+            "time": "2021-05-19T09:19:05+00:00"
         },
         {
             "name": "pestphp/pest-plugin-init",
