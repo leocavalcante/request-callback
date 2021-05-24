@@ -7,8 +7,8 @@ updates:
     time: "08:00"
   open-pull-requests-limit: 10
   target-branch: main
-  reviewers:
-  - leocavalcante
+  labels:
+  - automerge
   versioning-strategy: increase
   allow:
   - dependency-type: direct
