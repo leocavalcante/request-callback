@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61c64da279a36d86efae523fe6315da9",
+    "content-hash": "0a22bcb285e3c3d6e85cf28652e6258a",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -1450,16 +1450,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v1.2.1",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "3205b571b0019b2cc91ab3496f4b3502af6f8a72"
+                "reference": "9133b88d6550023207fef892bef5f38dc07e6b30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/3205b571b0019b2cc91ab3496f4b3502af6f8a72",
-                "reference": "3205b571b0019b2cc91ab3496f4b3502af6f8a72",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/9133b88d6550023207fef892bef5f38dc07e6b30",
+                "reference": "9133b88d6550023207fef892bef5f38dc07e6b30",
                 "shasum": ""
             },
             "require": {
@@ -1475,7 +1475,6 @@
                 "illuminate/console": "^8.32.1",
                 "illuminate/support": "^8.32.1",
                 "laravel/dusk": "^6.13.0",
-                "mockery/mockery": "^1.4.3",
                 "pestphp/pest-dev-tools": "dev-master"
             },
             "bin": [
@@ -1551,7 +1550,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-05-14T09:51:54+00:00"
+            "time": "2021-05-23T21:06:11+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
