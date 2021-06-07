@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a22bcb285e3c3d6e85cf28652e6258a",
+    "content-hash": "a29942b7e905183f0cf5bb54998377a0",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -967,16 +967,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.12.1",
+            "version": "2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "c13c0be93cff50f88bbd70827d993026821914dd"
+                "reference": "2edbc73a4687d9085c8f20f398eebade844e8424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/c13c0be93cff50f88bbd70827d993026821914dd",
-                "reference": "c13c0be93cff50f88bbd70827d993026821914dd",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/2edbc73a4687d9085c8f20f398eebade844e8424",
+                "reference": "2edbc73a4687d9085c8f20f398eebade844e8424",
                 "shasum": ""
             },
             "require": {
@@ -1030,7 +1030,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-25T12:00:00+00:00"
+            "time": "2021-06-04T12:00:00+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -1450,26 +1450,26 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "9133b88d6550023207fef892bef5f38dc07e6b30"
+                "reference": "bb13bdaa80a909226c8948b00bf2f5c32cf8761b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/9133b88d6550023207fef892bef5f38dc07e6b30",
-                "reference": "9133b88d6550023207fef892bef5f38dc07e6b30",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/bb13bdaa80a909226c8948b00bf2f5c32cf8761b",
+                "reference": "bb13bdaa80a909226c8948b00bf2f5c32cf8761b",
                 "shasum": ""
             },
             "require": {
                 "nunomaduro/collision": "^5.0",
                 "pestphp/pest-plugin": "^1.0",
                 "pestphp/pest-plugin-coverage": "^1.0",
-                "pestphp/pest-plugin-expectations": "^1.0",
-                "pestphp/pest-plugin-init": "^1.0",
+                "pestphp/pest-plugin-expectations": "^1.3",
+                "pestphp/pest-plugin-init": "^1.1",
                 "php": "^7.3 || ^8.0",
-                "phpunit/phpunit": ">= 9.3.7 <= 9.5.4"
+                "phpunit/phpunit": ">= 9.3.7 <= 9.5.5"
             },
             "require-dev": {
                 "illuminate/console": "^8.32.1",
@@ -1550,7 +1550,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-05-23T21:06:11+00:00"
+            "time": "2021-06-06T00:07:27+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
@@ -1696,16 +1696,16 @@
         },
         {
             "name": "pestphp/pest-plugin-expectations",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest-plugin-expectations.git",
-                "reference": "4c27ae98979a082200797657432c81be3cf0706b"
+                "reference": "fd313336450fdff2053ff989790aa3fe64b2df32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin-expectations/zipball/4c27ae98979a082200797657432c81be3cf0706b",
-                "reference": "4c27ae98979a082200797657432c81be3cf0706b",
+                "url": "https://api.github.com/repos/pestphp/pest-plugin-expectations/zipball/fd313336450fdff2053ff989790aa3fe64b2df32",
+                "reference": "fd313336450fdff2053ff989790aa3fe64b2df32",
                 "shasum": ""
             },
             "require": {
@@ -1761,7 +1761,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-05-29T22:52:12+00:00"
+            "time": "2021-06-04T19:16:27+00:00"
         },
         {
             "name": "pestphp/pest-plugin-init",
@@ -2447,16 +2447,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.4",
+            "version": "9.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c73c6737305e779771147af66c96ca6a7ed8a741"
+                "reference": "89ff45ea9d70e35522fb6654a2ebc221158de276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c73c6737305e779771147af66c96ca6a7ed8a741",
-                "reference": "c73c6737305e779771147af66c96ca6a7ed8a741",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/89ff45ea9d70e35522fb6654a2ebc221158de276",
+                "reference": "89ff45ea9d70e35522fb6654a2ebc221158de276",
                 "shasum": ""
             },
             "require": {
@@ -2486,7 +2486,7 @@
                 "sebastian/global-state": "^5.0.1",
                 "sebastian/object-enumerator": "^4.0.3",
                 "sebastian/resource-operations": "^3.0.3",
-                "sebastian/type": "^2.3",
+                "sebastian/type": "^2.3.2",
                 "sebastian/version": "^3.0.2"
             },
             "require-dev": {
@@ -2542,7 +2542,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-23T07:16:29+00:00"
+            "time": "2021-06-05T04:49:07+00:00"
         },
         {
             "name": "psr/container",
