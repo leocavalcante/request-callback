@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "399931f0dfa0852f9b6d8b2e13aa72f3",
+    "content-hash": "1e59afa0fd88773c500c6ca20a8133a2",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -1450,16 +1450,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v1.5.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "729638a3bb560fb680c9f8bf973ca62e216b767a"
+                "reference": "1680613e1250070ab6ccfcbec429d04f1830f5bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/729638a3bb560fb680c9f8bf973ca62e216b767a",
-                "reference": "729638a3bb560fb680c9f8bf973ca62e216b767a",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/1680613e1250070ab6ccfcbec429d04f1830f5bc",
+                "reference": "1680613e1250070ab6ccfcbec429d04f1830f5bc",
                 "shasum": ""
             },
             "require": {
@@ -1525,8 +1525,8 @@
             ],
             "funding": [
                 {
-                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66BYDWAT92N6L",
-                    "type": "custom"
+                    "url": "https://github.com/lukeraymonddowning",
+                    "type": "github"
                 },
                 {
                     "url": "https://github.com/nunomaduro",
@@ -1549,7 +1549,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-06-15T22:06:43+00:00"
+            "time": "2021-06-19T13:42:29+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
