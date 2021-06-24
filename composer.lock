@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e59afa0fd88773c500c6ca20a8133a2",
+    "content-hash": "4fabb5c5f68aed1354fb56064d9f08ec",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -1450,23 +1450,23 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "1680613e1250070ab6ccfcbec429d04f1830f5bc"
+                "reference": "e68c7b0e76918bd9983dd5c6582ac989a321db5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/1680613e1250070ab6ccfcbec429d04f1830f5bc",
-                "reference": "1680613e1250070ab6ccfcbec429d04f1830f5bc",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/e68c7b0e76918bd9983dd5c6582ac989a321db5a",
+                "reference": "e68c7b0e76918bd9983dd5c6582ac989a321db5a",
                 "shasum": ""
             },
             "require": {
                 "nunomaduro/collision": "^5.4.0",
                 "pestphp/pest-plugin": "^1.0.0",
                 "php": "^7.3 || ^8.0",
-                "phpunit/phpunit": ">= 9.3.7 <= 9.5.5"
+                "phpunit/phpunit": ">= 9.3.7 <= 9.5.6"
             },
             "require-dev": {
                 "illuminate/console": "^8.47.0",
@@ -1549,7 +1549,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-06-19T13:42:29+00:00"
+            "time": "2021-06-23T09:31:27+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
@@ -2232,16 +2232,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.5",
+            "version": "9.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "89ff45ea9d70e35522fb6654a2ebc221158de276"
+                "reference": "fb9b8333f14e3dce976a60ef6a7e05c7c7ed8bfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/89ff45ea9d70e35522fb6654a2ebc221158de276",
-                "reference": "89ff45ea9d70e35522fb6654a2ebc221158de276",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/fb9b8333f14e3dce976a60ef6a7e05c7c7ed8bfb",
+                "reference": "fb9b8333f14e3dce976a60ef6a7e05c7c7ed8bfb",
                 "shasum": ""
             },
             "require": {
@@ -2271,7 +2271,7 @@
                 "sebastian/global-state": "^5.0.1",
                 "sebastian/object-enumerator": "^4.0.3",
                 "sebastian/resource-operations": "^3.0.3",
-                "sebastian/type": "^2.3.2",
+                "sebastian/type": "^2.3.4",
                 "sebastian/version": "^3.0.2"
             },
             "require-dev": {
@@ -2327,7 +2327,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-05T04:49:07+00:00"
+            "time": "2021-06-23T05:14:38+00:00"
         },
         {
             "name": "psr/container",
