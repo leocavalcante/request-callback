@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "83a7e43e99cd6d335145526fb2906968",
+    "content-hash": "3d348b25cf506dc0a27eeea3ce2e4ba8",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -1452,16 +1452,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v1.9.1",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "eb6de433b7eab300185f8274d8aad9b2ea7a855d"
+                "reference": "d90ddf889cca8acf9f9a7ccbb36c34af8926f082"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/eb6de433b7eab300185f8274d8aad9b2ea7a855d",
-                "reference": "eb6de433b7eab300185f8274d8aad9b2ea7a855d",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/d90ddf889cca8acf9f9a7ccbb36c34af8926f082",
+                "reference": "d90ddf889cca8acf9f9a7ccbb36c34af8926f082",
                 "shasum": ""
             },
             "require": {
@@ -1551,7 +1551,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-07-11T08:08:31+00:00"
+            "time": "2021-07-12T10:54:40+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
