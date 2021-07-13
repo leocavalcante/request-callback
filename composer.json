@@ -46,7 +46,7 @@
     },
     "require-dev": {
         "swoole/ide-helper": "^4.6",
-        "pestphp/pest": "^1.9.1",
+        "pestphp/pest": "^1.10.0",
         "laminas/laminas-stratigility": "^3.4",
         "vimeo/psalm": "^4.8"
     }
