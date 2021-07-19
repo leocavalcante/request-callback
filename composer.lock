@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d348b25cf506dc0a27eeea3ce2e4ba8",
+    "content-hash": "9ebc04ae9d67ca70c627dee5d0c8be63",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -3377,16 +3377,16 @@
         },
         {
             "name": "swoole/ide-helper",
-            "version": "4.6.7",
+            "version": "4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swoole/ide-helper.git",
-                "reference": "0d1409b8274117addfe64d3ea412812a69807411"
+                "reference": "8c181b9cbe9980778f0aa7e88f8ebf1506f28122"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/0d1409b8274117addfe64d3ea412812a69807411",
-                "reference": "0d1409b8274117addfe64d3ea412812a69807411",
+                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/8c181b9cbe9980778f0aa7e88f8ebf1506f28122",
+                "reference": "8c181b9cbe9980778f0aa7e88f8ebf1506f28122",
                 "shasum": ""
             },
             "require-dev": {
@@ -3415,13 +3415,9 @@
                 {
                     "url": "https://github.com/swoole",
                     "type": "github"
-                },
-                {
-                    "url": "https://opencollective.com/swoole-src",
-                    "type": "open_collective"
                 }
             ],
-            "time": "2021-05-14T16:05:16+00:00"
+            "time": "2021-07-16T18:20:17+00:00"
         },
         {
             "name": "symfony/console",
