@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ff2098d92aa2dade0fc9bc67a3f3a57",
+    "content-hash": "6ed86d3ad9b2177c0107eb09493ef846",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -1452,23 +1452,23 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v1.12.0",
+            "version": "v1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "4ebba1298ae9d4b50f455ed45a6c17706fe76d3d"
+                "reference": "e56e8186595f767ab9daa7713346d6079090e4c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/4ebba1298ae9d4b50f455ed45a6c17706fe76d3d",
-                "reference": "4ebba1298ae9d4b50f455ed45a6c17706fe76d3d",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/e56e8186595f767ab9daa7713346d6079090e4c4",
+                "reference": "e56e8186595f767ab9daa7713346d6079090e4c4",
                 "shasum": ""
             },
             "require": {
                 "nunomaduro/collision": "^5.4.0",
                 "pestphp/pest-plugin": "^1.0.0",
                 "php": "^7.3 || ^8.0",
-                "phpunit/phpunit": "^9.3.7"
+                "phpunit/phpunit": "^9.5.5"
             },
             "require-dev": {
                 "illuminate/console": "^8.47.0",
@@ -1551,7 +1551,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-07-26T21:46:22+00:00"
+            "time": "2021-08-02T12:06:41+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
@@ -3272,7 +3272,6 @@
                     "type": "github"
                 }
             ],
-            "abandoned": true,
             "time": "2020-09-28T06:45:17+00:00"
         },
         {
