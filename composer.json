@@ -48,6 +48,6 @@
         "swoole/ide-helper": "^4.7",
         "pestphp/pest": "^1.18.0",
         "laminas/laminas-stratigility": "^3.4",
-        "vimeo/psalm": "^4.9"
+        "vimeo/psalm": "^4.10"
     }
 }
