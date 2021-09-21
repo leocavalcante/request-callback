@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5afa5c00fef6a1bc45750faaeec4e2f",
+    "content-hash": "64497859724d65e309dbb774d1ab7346",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -1202,16 +1202,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.12.0",
+            "version": "v4.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "6608f01670c3cc5079e18c1dab1104e002579143"
+                "reference": "50953a2691a922aa1769461637869a0a2faa3f53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/6608f01670c3cc5079e18c1dab1104e002579143",
-                "reference": "6608f01670c3cc5079e18c1dab1104e002579143",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/50953a2691a922aa1769461637869a0a2faa3f53",
+                "reference": "50953a2691a922aa1769461637869a0a2faa3f53",
                 "shasum": ""
             },
             "require": {
@@ -1250,7 +1250,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2021-07-21T10:44:31+00:00"
+            "time": "2021-09-20T12:20:58+00:00"
         },
         {
             "name": "nunomaduro/collision",
@@ -1386,16 +1386,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v1.18.0",
+            "version": "v1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "60c06365233f8b7f6958799529f42cea7f9fbaf8"
+                "reference": "58cff003d8d478ecb4cbe87bd6380f51efc4ebc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/60c06365233f8b7f6958799529f42cea7f9fbaf8",
-                "reference": "60c06365233f8b7f6958799529f42cea7f9fbaf8",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/58cff003d8d478ecb4cbe87bd6380f51efc4ebc7",
+                "reference": "58cff003d8d478ecb4cbe87bd6380f51efc4ebc7",
                 "shasum": ""
             },
             "require": {
@@ -1486,7 +1486,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-08-29T23:05:26+00:00"
+            "time": "2021-09-20T18:30:58+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
