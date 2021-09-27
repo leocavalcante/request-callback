@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cdb675930019eac2979e39eba9615097",
+    "content-hash": "1d99b323a29e6d3ff2a2a0b14aefff52",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -1386,16 +1386,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v1.19.0",
+            "version": "v1.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "58cff003d8d478ecb4cbe87bd6380f51efc4ebc7"
+                "reference": "ba06c5a76d95bbdef93aa4e05b489c3335b6c8c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/58cff003d8d478ecb4cbe87bd6380f51efc4ebc7",
-                "reference": "58cff003d8d478ecb4cbe87bd6380f51efc4ebc7",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/ba06c5a76d95bbdef93aa4e05b489c3335b6c8c1",
+                "reference": "ba06c5a76d95bbdef93aa4e05b489c3335b6c8c1",
                 "shasum": ""
             },
             "require": {
@@ -1423,7 +1423,8 @@
                     "plugins": [
                         "Pest\\Plugins\\Coverage",
                         "Pest\\Plugins\\Init",
-                        "Pest\\Plugins\\Version"
+                        "Pest\\Plugins\\Version",
+                        "Pest\\Plugins\\Environment"
                     ]
                 },
                 "laravel": {
@@ -1486,7 +1487,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-09-20T18:30:58+00:00"
+            "time": "2021-09-25T12:52:12+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
