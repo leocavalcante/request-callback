@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d18cc7bfe47a47f52b5d8a0058744d7",
+    "content-hash": "c8326a5b545e3133836dc758d45f155a",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -3315,23 +3315,17 @@
         },
         {
             "name": "swoole/ide-helper",
-            "version": "4.7.1",
+            "version": "4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swoole/ide-helper.git",
-                "reference": "918a98b5b264425fdb59461d9bbd7f9b504ead71"
+                "reference": "837a2b20242e3cebf0ba1168e876f0f1ca9a14e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/918a98b5b264425fdb59461d9bbd7f9b504ead71",
-                "reference": "918a98b5b264425fdb59461d9bbd7f9b504ead71",
+                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/837a2b20242e3cebf0ba1168e876f0f1ca9a14e3",
+                "reference": "837a2b20242e3cebf0ba1168e876f0f1ca9a14e3",
                 "shasum": ""
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": "~6.5.0",
-                "laminas/laminas-code": "~3.4.0",
-                "squizlabs/php_codesniffer": "~3.5.0",
-                "symfony/filesystem": "~4.0"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -3355,7 +3349,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-08-19T17:25:57+00:00"
+            "time": "2021-10-14T19:39:28+00:00"
         },
         {
             "name": "symfony/console",
