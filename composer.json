@@ -47,7 +47,7 @@
         "swoole/ide-helper": "^4.7",
         "pestphp/pest": "^1.20.0",
         "laminas/laminas-stratigility": "^3.5",
-        "vimeo/psalm": "^4.12"
+        "vimeo/psalm": "^4.16"
     },
     "suggest": {
         "ext-swoole": "You need either ext-swoole or ext-openswoole",
